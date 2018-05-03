@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A49263A3206E686C00027C09 /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4926399206E686C00027C09 /* Router.framework */; };
-		A49263AA206E686C00027C09 /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = A492639C206E686C00027C09 /* Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A49263BC206E68EB00027C09 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263B9206E68EB00027C09 /* RouterTests.swift */; };
 		A49263BF206E692F00027C09 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263BE206E692F00027C09 /* Router.swift */; };
 		A49263C1206E6B2400027C09 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263C0206E6B2400027C09 /* Route.swift */; };
 		A49263C3206E883200027C09 /* RouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263C2206E883200027C09 /* RouteTests.swift */; };
 		A49263C620724C5900027C09 /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263C520724C5900027C09 /* XCTestCase+Extensions.swift */; };
+		A4EBB657209B1C3700072A36 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263BE206E692F00027C09 /* Router.swift */; };
+		A4EBB658209B1C3700072A36 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263C0206E6B2400027C09 /* Route.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +29,16 @@
 
 /* Begin PBXFileReference section */
 		A4926399206E686C00027C09 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A492639C206E686C00027C09 /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
 		A49263A2206E686C00027C09 /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A49263B5206E68E300027C09 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49263B5206E68E300027C09 /* iOS Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS Info.plist"; sourceTree = "<group>"; };
 		A49263B9206E68EB00027C09 /* RouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		A49263BB206E68EB00027C09 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49263BE206E692F00027C09 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		A49263C0206E6B2400027C09 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		A49263C2206E883200027C09 /* RouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
 		A49263C520724C5900027C09 /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
+		A4EBB64F209B1B6000072A36 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBB652209B1B6000072A36 /* macOS Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49263A3206E686C00027C09 /* Router.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBB64B209B1B6000072A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,7 @@
 			children = (
 				A4926399206E686C00027C09 /* Router.framework */,
 				A49263A2206E686C00027C09 /* RouterTests.xctest */,
+				A4EBB64F209B1B6000072A36 /* Router.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +89,6 @@
 		A492639B206E686C00027C09 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				A492639C206E686C00027C09 /* Router.h */,
 				A49263B3206E68E300027C09 /* Source */,
 				A49263B4206E68E300027C09 /* Supporting Files */,
 			);
@@ -107,7 +116,8 @@
 		A49263B4206E68E300027C09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A49263B5206E68E300027C09 /* Info.plist */,
+				A49263B5206E68E300027C09 /* iOS Info.plist */,
+				A4EBB652209B1B6000072A36 /* macOS Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,16 +163,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49263AA206E686C00027C09 /* Router.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBB64C209B1B6000072A36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A4926398206E686C00027C09 /* Router */ = {
+		A4926398206E686C00027C09 /* Router iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A49263AD206E686C00027C09 /* Build configuration list for PBXNativeTarget "Router" */;
+			buildConfigurationList = A49263AD206E686C00027C09 /* Build configuration list for PBXNativeTarget "Router iOS" */;
 			buildPhases = (
 				A4926394206E686C00027C09 /* Sources */,
 				A4926395206E686C00027C09 /* Frameworks */,
@@ -173,7 +189,7 @@
 			);
 			dependencies = (
 			);
-			name = Router;
+			name = "Router iOS";
 			productName = Router;
 			productReference = A4926399206E686C00027C09 /* Router.framework */;
 			productType = "com.apple.product-type.framework";
@@ -196,6 +212,24 @@
 			productReference = A49263A2206E686C00027C09 /* RouterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A4EBB64E209B1B6000072A36 /* Router macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EBB656209B1B6000072A36 /* Build configuration list for PBXNativeTarget "Router macOS" */;
+			buildPhases = (
+				A4EBB64A209B1B6000072A36 /* Sources */,
+				A4EBB64B209B1B6000072A36 /* Frameworks */,
+				A4EBB64C209B1B6000072A36 /* Headers */,
+				A4EBB64D209B1B6000072A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Router macOS";
+			productName = "Router macOS";
+			productReference = A4EBB64F209B1B6000072A36 /* Router.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +247,9 @@
 					A49263A1206E686C00027C09 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					A4EBB64E209B1B6000072A36 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = A4926393206E686B00027C09 /* Build configuration list for PBXProject "Router" */;
@@ -227,7 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4926398206E686C00027C09 /* Router */,
+				A4926398206E686C00027C09 /* Router iOS */,
+				A4EBB64E209B1B6000072A36 /* Router macOS */,
 				A49263A1206E686C00027C09 /* RouterTests */,
 			);
 		};
@@ -242,6 +280,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A49263A0206E686C00027C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EBB64D209B1B6000072A36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,12 +315,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A4EBB64A209B1B6000072A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBB657209B1C3700072A36 /* Router.swift in Sources */,
+				A4EBB658209B1C3700072A36 /* Route.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		A49263A5206E686C00027C09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A4926398206E686C00027C09 /* Router */;
+			target = A4926398206E686C00027C09 /* Router iOS */;
 			targetProxy = A49263A4206E686C00027C09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -411,7 +465,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Router/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Router/Supporting Files/iOS Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,7 +474,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.Router;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Router;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -438,7 +492,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Router/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Router/Supporting Files/iOS Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,7 +501,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.Router;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Router;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -490,6 +544,62 @@
 			};
 			name = Release;
 		};
+		A4EBB654209B1B6000072A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Router/Supporting Files/macOS Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Router-macOS";
+				PRODUCT_NAME = Router;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A4EBB655209B1B6000072A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Router/Supporting Files/macOS Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Router-macOS";
+				PRODUCT_NAME = Router;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -502,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A49263AD206E686C00027C09 /* Build configuration list for PBXNativeTarget "Router" */ = {
+		A49263AD206E686C00027C09 /* Build configuration list for PBXNativeTarget "Router iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A49263AE206E686C00027C09 /* Debug */,
@@ -516,6 +626,15 @@
 			buildConfigurations = (
 				A49263B1206E686C00027C09 /* Debug */,
 				A49263B2206E686C00027C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EBB656209B1B6000072A36 /* Build configuration list for PBXNativeTarget "Router macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EBB654209B1B6000072A36 /* Debug */,
+				A4EBB655209B1B6000072A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

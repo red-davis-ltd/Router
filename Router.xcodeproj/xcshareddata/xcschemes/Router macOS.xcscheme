@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4926398206E686C00027C09"
-               BuildableName = "Router.framework"
-               BlueprintName = "Router"
+               BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
+               BuildableName = "Router_macOS.framework"
+               BlueprintName = "Router macOS"
                ReferencedContainer = "container:Router.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4926398206E686C00027C09"
-            BuildableName = "Router.framework"
-            BlueprintName = "Router"
+            BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
+            BuildableName = "Router_macOS.framework"
+            BlueprintName = "Router macOS"
             ReferencedContainer = "container:Router.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4926398206E686C00027C09"
-            BuildableName = "Router.framework"
-            BlueprintName = "Router"
+            BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
+            BuildableName = "Router_macOS.framework"
+            BlueprintName = "Router macOS"
             ReferencedContainer = "container:Router.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4926398206E686C00027C09"
-            BuildableName = "Router.framework"
-            BlueprintName = "Router"
+            BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
+            BuildableName = "Router_macOS.framework"
+            BlueprintName = "Router macOS"
             ReferencedContainer = "container:Router.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
