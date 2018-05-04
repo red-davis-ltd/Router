@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
-               BuildableName = "Router_macOS.framework"
+               BuildableName = "Router.framework"
                BlueprintName = "Router macOS"
                ReferencedContainer = "container:Router.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
-            BuildableName = "Router_macOS.framework"
+            BuildableName = "Router.framework"
             BlueprintName = "Router macOS"
             ReferencedContainer = "container:Router.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
-            BuildableName = "Router_macOS.framework"
+            BuildableName = "Router.framework"
             BlueprintName = "Router macOS"
             ReferencedContainer = "container:Router.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4EBB64E209B1B6000072A36"
-            BuildableName = "Router_macOS.framework"
+            BuildableName = "Router.framework"
             BlueprintName = "Router macOS"
             ReferencedContainer = "container:Router.xcodeproj">
          </BuildableReference>

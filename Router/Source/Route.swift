@@ -77,9 +77,6 @@ public struct Route
             switch component
             {
             case .variable(let key):
-                print(otherComponents)
-                print(key)
-                
                 attributes[key] = String(otherComponents[index])
             default:()
             }
