@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A49263A3206E686C00027C09 /* Router.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4926399206E686C00027C09 /* Router.framework */; };
+		A49263A3206E686C00027C09 /* DeeplinkRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4926399206E686C00027C09 /* DeeplinkRouter.framework */; };
 		A49263BC206E68EB00027C09 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263B9206E68EB00027C09 /* RouterTests.swift */; };
 		A49263BF206E692F00027C09 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263BE206E692F00027C09 /* Router.swift */; };
 		A49263C1206E6B2400027C09 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49263C0206E6B2400027C09 /* Route.swift */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A4926399206E686C00027C09 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4926399206E686C00027C09 /* DeeplinkRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeplinkRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49263A2206E686C00027C09 /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49263B5206E68E300027C09 /* iOS Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS Info.plist"; sourceTree = "<group>"; };
 		A49263B9206E68EB00027C09 /* RouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		A49263C0206E6B2400027C09 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		A49263C2206E883200027C09 /* RouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTests.swift; sourceTree = "<group>"; };
 		A49263C520724C5900027C09 /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
-		A4EBB64F209B1B6000072A36 /* Router.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Router.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EBB64F209B1B6000072A36 /* DeeplinkRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeplinkRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EBB652209B1B6000072A36 /* macOS Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49263A3206E686C00027C09 /* Router.framework in Frameworks */,
+				A49263A3206E686C00027C09 /* DeeplinkRouter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +79,9 @@
 		A492639A206E686C00027C09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4926399206E686C00027C09 /* Router.framework */,
+				A4926399206E686C00027C09 /* DeeplinkRouter.framework */,
 				A49263A2206E686C00027C09 /* RouterTests.xctest */,
-				A4EBB64F209B1B6000072A36 /* Router.framework */,
+				A4EBB64F209B1B6000072A36 /* DeeplinkRouter.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 			);
 			name = "Router iOS";
 			productName = Router;
-			productReference = A4926399206E686C00027C09 /* Router.framework */;
+			productReference = A4926399206E686C00027C09 /* DeeplinkRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A49263A1206E686C00027C09 /* RouterTests */ = {
@@ -227,7 +227,7 @@
 			);
 			name = "Router macOS";
 			productName = "Router macOS";
-			productReference = A4EBB64F209B1B6000072A36 /* Router.framework */;
+			productReference = A4EBB64F209B1B6000072A36 /* DeeplinkRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -476,7 +476,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.Router;
-				PRODUCT_NAME = Router;
+				PRODUCT_NAME = DeeplinkRouter;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -503,7 +503,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.Router;
-				PRODUCT_NAME = Router;
+				PRODUCT_NAME = DeeplinkRouter;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,7 +569,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Router-macOS";
-				PRODUCT_NAME = Router;
+				PRODUCT_NAME = DeeplinkRouter;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -597,7 +597,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Router-macOS";
-				PRODUCT_NAME = Router;
+				PRODUCT_NAME = DeeplinkRouter;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;

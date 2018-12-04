@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Router
+@testable import DeeplinkRouter
 
 
 internal final class RouteTests: XCTestCase
